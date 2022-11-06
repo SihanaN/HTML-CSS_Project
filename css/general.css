@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "Madetommyyy-Family";
+	src: url(../fonts/MADETOMMY-Thin.otf);
+	font-weight: light;
+  }
+  
+  @font-face {
+	font-family: "Madetommy2-Family";
+	src: url(../fonts/MADETOMMY-Light.otf) format("opentype");
+	font-weight: light;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: "Madetommy1-Family";
+	src: url(../fonts/MADETOMMY-Medium.otf);
+	font-weight: medium;
+  }
+  @font-face {
+	font-family: "Madetommy-Family";
+	src: url(../fonts/MADETOMMY-Bold.otf);
+	font-weight: bold;
+  }
+  @font-face {
+	font-family: "Roboto-Family1";
+	src: url(../fonts/Roboto-Regular.ttf);
+  }
+  @font-face {
+	font-family: "Roboto-Light";
+	src: url(../fonts/Roboto-Light.ttf);
+  }
+  @font-face {
+	font-family: "Roboto-Family";
+	src: url(../fonts/Roboto-Medium.ttf);
+  }
+  @font-face {
+	font-family: "Roboto-Family";
+	src: url(../fonts/Roboto-Medium.ttf);
+  }
+  
+  @font-face {
+	font-family: "Ohno-Family";
+	src: url(../fonts/Ohno\ Blazeface\ 60\ Point.ttf);
+  }
+  
+  * {
+	padding: 0;
+	margin: 0;
+	/* border: 1px solid red;  */
+  }
+
+  body, html {	
+	margin: 0;
+	height: 100%;
+	/* overflow-x: hidden; */
+	
+}
+.grid {
+	display: grid;
+	gap: 50px;
+  }
+  
+  .grid--2cols {
+	grid-template-columns: 1fr 2fr;
+  }
+  
+  .grid--3cols {
+	grid-template-columns: repeat(3, 1fr);
+  }

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vo'Katuni</title>
+    <meta
+      name="viewport"
+      content="width=device-width, 
+  initial-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/general.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/queries.css" />
+  </head>
+  <body>
+    <section class="header">
+      <div id="topnav" class="navbar">
+        <a class href="index.html">
+          <img class="logo" alt="Vo`Katuni logo" src="img/logo1.svg" />
+        </a>
+        <div class="navbar-right menu">
+          <a href="#introduction" class="active"> Hyrje </a>
+          <a href="#products"> Produktet </a>
+          <a href="#aboutUs"> Rreth nesh </a>
+          <a href="#contact"> Kontakti </a>
+        </div>
+        <div class="navbar-right">
+          <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <div id="slideshow-container" class="slideshow-container">
+        <div
+          class="slide-item bgimg fade"
+          style="background-image: url('img/background1.png')"
+        >
+          <div class="heading-primary">
+            <h1>P&euml;rdorni <br />vo't cil&euml;sore</h1>
+          </div>
+        </div>
+
+        <div
+          class="slide-item bgimg fade"
+          style="background-image: url('img/background2.jpg')"
+        >
+          <div class="heading-primary">
+            <h1>P&euml;rdorni <br />vo't cil&euml;sore</h1>
+          </div>
+        </div>
+
+        <div
+          class="slide-item bgimg fade"
+          style="background-image: url('img/background3.jpg')"
+        >
+          <div class="heading-primary">
+            <h1>P&euml;rdorni <br />vo't cil&euml;sore</h1>
+          </div>
+        </div>
+
+        <div id="slide-control" class="slide-control">
+          <span class="dot" onclick="chooseSlide(0)"></span>
+          <span class="dot" onclick="chooseSlide(1)"></span>
+          <span class="dot" onclick="chooseSlide(2)"></span>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <section class="section-description" id="introduction">
+        <div class="text-box2">
+          <h2>
+            VO DHE PULA KATUNI &Euml;SHT&Euml; INDUSTRIA E PAR&Euml; N&Euml;
+            RRAFSH DUKAGJINI <br />
+            P&euml;R PULAT E LIRA DHE VO'T&Euml; NATYRALE
+          </h2>
+          <p>
+            &#199;far&euml; ne na b&euml;n unik&euml; n&euml; industrin&euml;
+            ushqimore &euml;sht&euml; q&euml; ne jemi t&euml; p&euml;rkushtuar
+            n&euml; cil&euml;sin&euml; e vo-ve t&euml; cilat ne <br />
+            i lansojm&euml; n&euml; treg, e r&euml;nd&euml;sishme p&euml;r ne
+            &euml;sht&euml; q&euml; produktet tona t&euml; jen&euml; t&euml;
+            mbrojtura nga marka <br />
+            q&euml; ne ofrojm&euml; pasi q&euml; p&euml;rkujdesi yn&euml;
+            n&euml; ushqime t&euml; pulave &euml;sht&euml; tep&euml;r i madh.
+          </p>
+        </div>
+      </section>
+      <section class="products" id="products">
+        <h2 class="heading-secondary">PRODUKTE</h2>
+        <div class="container-box">
+          <div class="package">
+            <img
+              class="package-img"
+              alt="Tablla prej 30 Cope"
+              src="img/30_cope.jpg"
+            />
+            <p class="package-title">TABLLA PREJ 30 COP&Euml;</p>
+          </div>
+          <div class="package">
+            <img
+              class="package-img"
+              alt="Tablla prej 10 Copë"
+              src="img/10_cope.jpg"
+            />
+            <p class="package-title">TABLLA PREJ 10 COP&Euml;</p>
+          </div>
+          <div class="package">
+            <img
+              class="package-img"
+              alt="Tablla prej 6 Copë"
+              src="img/6_cope.jpg"
+            />
+            <p class="package-title">TABLLA PREJ 6 COP&Euml;</p>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials grid grid--2cols" id="aboutUs">
+        <div class="egg-picture">
+          <img class="single-egg" alt="vo'e" src="img/voe.png" />
+        </div>
+        <div class="about-part">
+          <h2>PSE FERMA `VO KATUNI`</h2>
+          <p>
+            &Euml;sht&euml; nj&euml; nd&euml;r fermat me kapacitetet m&euml;
+            funksionale dhe me kushtet m&euml; t&euml; mira n&euml; mbajtjen
+            dhe
+            zhvillimin e veprimtaris&euml; p&euml;r FREE RANGE. Vo't&euml; dhe
+            cil&euml;sia e tyre jan&euml; ato t&euml; cilat Free Range
+            jep si fryt i pun&euml;s s&euml; madhe.
+          </p>
+        </div>
+      </section>
+      <section class="food">
+        <div class="wrapper">
+          <div class="gallery">
+            <div class="gallery_item gallery_item--1">
+              <a href="#" class="gallery_link">
+                <img src="img/cooking4.jpg" class="gallery_image" />
+                <div class="gallery_overlay1">
+                  <div class="products">
+                    <span class="products_">K&Euml;RKO </span>
+                    <br />
+                    <span class="products-search"
+                      >PRODUKTET<br />
+                      TONA</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="gallery_item gallery_item--2">
+              <a href="#" class="gallery_link">
+                <img src="img/food1.png" class="gallery_image" />
+                <div class="gallery_overlay2">
+                  <div class="food">
+                    <h1 class="food_">USHQIMI</span>
+                    <p class="food_p">
+                      
+                      Ne &#231;doher&euml; p&euml;rkujdesemi p&euml;r ushqimin
+                      q&euml; ofrojm&euml;<br />
+                      p&euml;r pulat tona dhe si rezultat kemi<br />
+                      t&euml; mbjellura mbi 10 hektar&euml; tok&euml;
+                      bujq&euml;sore mbi<br />
+                      pron&euml;si p&euml;r ushqimet m&euml; cil&euml;sore,
+                      adekuate dhe pa aditiv.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="footer" id="contact">
+      <div class="contact">
+        <h3>Vo'Katuni</h3>
+        <p>
+          Klin&euml;,Kosov&euml;<br />
+          Nr.Biznesit:<br />
+          811954389
+        </p>
+      </div>
+    </section>
+  </body>
+
+  <script src="index.js"></script>
+</html>
